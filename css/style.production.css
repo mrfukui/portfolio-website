@@ -50,6 +50,10 @@ p {
     border-radius: 50%;
 }
 
+.profile__github {
+    color: #f0ec07;
+}
+
 .page-footer {
     clear: both;
     display: -webkit-box;
@@ -108,8 +112,16 @@ p {
     margin-left: 15px;
 }
 
+.navigation-list__item--active, .navigation-list__item {
+    color: #31f5aa;
+}
+
 .contact-container {
     text-align:center;
+}
+
+.contact__links {
+    color: #f0ec07;
 }
 
 .contact-header {
@@ -131,6 +143,7 @@ p {
 .grid__item {
     background-color: lightgray;
     padding: 10px;
+    color: black;
 }
 
 @media all and (max-width: 500px) {
