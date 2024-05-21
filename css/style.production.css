@@ -141,12 +141,22 @@ p {
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  padding-bottom: 100px;
 }
 
 .grid__item {
   background-color: lightgray;
   padding: 10px;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media all and (max-width: 500px) {
@@ -229,6 +239,7 @@ button:focus,
 .about {
   max-width: 700px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .about-items {
@@ -356,17 +367,38 @@ button:focus,
 }
 
 .grid__item img {
-  width: 100%;
-  height: auto;
+  height: 16rem;
 }
 
-section img {
+/* section img {
   max-width: 100%;
   width: 900px;
   height: auto;
-}
+} */
 
 .meet-container {
   text-align: center;
   margin-bottom: 100px;
+}
+
+.chat-img-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.app-images {
+  width: 80%;
+}
+
+.chatapp-image {
+  width: 15%;
+}
+
+.chat-container {
+  display: flex;
+  justify-content: center;
+}
+
+.work-title {
+  margin-left: 1rem;
 }
