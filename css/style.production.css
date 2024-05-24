@@ -138,25 +138,29 @@ p {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr 1fr; */
   grid-gap: 20px;
   padding-bottom: 100px;
+  margin: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: #636363;
   padding: 10px;
-  color: black;
+  color: lightyellow;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
 }
 
 .grid-link {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #effd5f;
 }
 
 @media all and (max-width: 500px) {
@@ -400,5 +404,31 @@ button:focus,
 }
 
 .work-title {
-  margin-left: 1rem;
+  text-align: center;
+}
+
+.project__links {
+  color: #f0ec07;
+}
+
+.screenshots {
+  width: 95%;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.send-button {
+  width: 10%;
+}
+
+.submit-container {
+  text-align: center;
+}
+
+.input-ind {
+  margin-bottom: 10px;
 }

@@ -71,21 +71,35 @@
     </div>
 
     <div class="contact-forms">
-      <form action="" method="post">
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required />
-
-        <label class="standard-label" for="contact-telephone"
-          >Telephone:
-        </label>
-        <input type="tel" id="contact-telephone" required />
-
-        <label class="standard-label" for="contact-message">Message: </label>
-        <textarea id="contact-message" required></textarea>
-
-        <input type="submit" value="Send message" />
+      <form action="" method="post" class="form-inputs">
+        <div class="input-ind">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" required />
+        </div>
+        <div class="input-ind">
+          <label class="standard-label" for="contact-telephone"
+            >Telephone:
+          </label>
+          <input type="tel" id="contact-telephone" required />
+        </div>
+        <div class="input-ind">
+          <label class="standard-label" for="contact-message">Message: </label>
+          <textarea id="contact-message" required></textarea>
+        </div>
+        <div class="submit-container">
+          <input type="submit" value="Send message" class="send-button" />
+        </div>
       </form>
     </div>
+
+    <br />
+    <br />
+    <div class="contact-container">
+      <a href="https://medium.com/@mr.fukui" class="contact__links"
+        >Feel free to check me out on Medium too!</a
+      >
+    </div>
+
     <footer class="page-footer">
       <p class="footer-text">Find me on</p>
       <!-- Github logo -->
