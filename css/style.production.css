@@ -133,6 +133,11 @@ p {
   text-align: center;
 }
 
+.contact-container2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
 .contact__links {
   color: #f0ec07;
 }
@@ -456,4 +461,9 @@ button:focus,
 .screen-image:hover {
   transform: scale(1.1); /* Increase size by 10% on hover */
   transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.chat-screen {
+  height: auto;
+  object-fit: contain;
 }
