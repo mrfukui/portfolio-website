@@ -79,7 +79,9 @@ p {
 }
 
 .footer-align-index {
+  clear: both;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
