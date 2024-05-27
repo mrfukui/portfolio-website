@@ -48,6 +48,7 @@ p {
   width: 250px;
   margin-right: 40px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .profile__github {
@@ -108,8 +109,8 @@ p {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 200px;
   flex: 0 1 200px;
-  width: 16rem;
-  height: 4rem;
+  width: 10em;
+  height: 3em;
 }
 
 .page-header__item:last-child {
