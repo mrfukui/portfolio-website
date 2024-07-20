@@ -572,7 +572,7 @@ label {
   display: flex;
   align-items: center;
   margin: 20px 0;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .text-left {
@@ -598,7 +598,7 @@ label {
 }
 
 .image-row img {
-  height: 50px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
   width: auto;
   margin: 0 10px;
 }
@@ -612,7 +612,7 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 20px;
+  margin: 20px 20px;
 }
 
 /* Styling for the image containers */
@@ -647,6 +647,7 @@ label {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .roadblock-text p,
@@ -681,4 +682,50 @@ label {
 .roadblock-title {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.final-product-content {
+  text-align: center;
+  padding: 0 20px; /* Add padding to the content */
+  margin-bottom: 50px;
+}
+
+.final-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding: 0 10px; /* Add padding to the container */
+}
+
+.final-container img {
+  max-width: 45%;
+  height: auto;
+  margin: 10px; /* Add margin to the images */
+}
+
+@media (max-width: 768px) {
+  .final-container {
+    justify-content: center;
+  }
+  .final-container img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+.reflection-content {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.reflection-text {
+  max-width: 80%;
+  margin: 0 auto; /* Center the text */
+}
+
+.reflection-text p {
+  text-align: left; /* Keep the text alignment within paragraphs */
 }
