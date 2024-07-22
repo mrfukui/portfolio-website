@@ -729,3 +729,8 @@ label {
 .reflection-text p {
   text-align: left; /* Keep the text alignment within paragraphs */
 }
+
+.reflection-text img {
+  width: 350px;
+  height: auto;
+}
