@@ -68,9 +68,10 @@ p {
   flex-direction: column;
   text-align: center;
   position: fixed;
-  width: 124px;
+  width: 270px;
   bottom: 0px;
   border-radius: 4%;
+  padding-bottom: 5px;
 }
 
 .footer-align {
@@ -84,6 +85,36 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media img {
+  height: 40px;
+  width: auto;
+}
+
+.resume-button {
+  border: none;
+  /* display: inline-block; */
+  font-family: inherit;
+  background-color: #357b70;
+  color: white;
+  text-decoration: none;
+  /* padding: px; */
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: auto;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .navigation-list__item--active {
@@ -168,9 +199,9 @@ p {
 }
 
 .grid__item {
-  background-color: #636363;
+  background-color: #505657;
   padding: 10px;
-  color: lightyellow;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,7 +212,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #effd5f;
+  color: white;
 }
 
 .screenshots,
@@ -221,19 +252,14 @@ p {
 }
 
 .button {
-  /* overwrites browser defaults */
-  /* resets the border */
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
   font-family: inherit;
-  /* style button */
   background-color: #357b70;
   color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
@@ -410,7 +436,7 @@ button:focus,
 
 .meet-container {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .chat-img-container {
@@ -499,63 +525,6 @@ label {
   object-fit: cover;
   object-position: top 25%;
 }
-
-/* .case-study-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.text-left,
-.text-right {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 90%;
-}
-
-.text-left {
-  justify-content: space-between;
-}
-
-.text-right {
-  justify-content: space-between;
-}
-
-.text-left img,
-.text-right img {
-  max-width: 40%;
-  height: auto;
-}
-
-.big-images {
-  max-width: 30%;
-  height: auto;
-}
-
-.text-left p {
-  max-width: 80%;
-  margin: 0 20px;
-}
-
-.text-right p {
-  max-width: 50%;
-  margin: 0 20rem;
-}
-
-.image-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: space-between;
-}
-
-.image-row img {
-  height: 90px;
-  object-fit: cover;
-  margin: 0 10px;
-} */
 
 .case-title {
   text-align: center;
