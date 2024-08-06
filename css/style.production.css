@@ -297,11 +297,17 @@ button:focus,
 .about {
   max-width: 700px;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
+  margin-top: 150px;
 }
 
 .about-items {
   text-align: center;
+}
+
+.left-about {
+  text-align: left;
+  text-indent: 40px;
 }
 
 @-webkit-keyframes color-change {
